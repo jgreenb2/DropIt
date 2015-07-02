@@ -13,6 +13,7 @@
 		75D05ED11B45799A00A9D630 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D05ECF1B45799A00A9D630 /* LaunchScreen.xib */; };
 		75D05EDD1B45799B00A9D630 /* DropItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D05EDC1B45799B00A9D630 /* DropItTests.swift */; };
 		75D05EE71B457A0100A9D630 /* DropItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D05EE61B457A0100A9D630 /* DropItViewController.swift */; };
+		75FD46161B45D15700E8B0A5 /* DropItBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FD46151B45D15700E8B0A5 /* DropItBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		75D05EDB1B45799B00A9D630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75D05EDC1B45799B00A9D630 /* DropItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropItTests.swift; sourceTree = "<group>"; };
 		75D05EE61B457A0100A9D630 /* DropItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItViewController.swift; sourceTree = "<group>"; };
+		75FD46151B45D15700E8B0A5 /* DropItBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				75D05ECA1B45799A00A9D630 /* Main.storyboard */,
 				75D05EE61B457A0100A9D630 /* DropItViewController.swift */,
+				75FD46151B45D15700E8B0A5 /* DropItBehavior.swift */,
 				75D05EC41B45799A00A9D630 /* Supporting Files */,
 			);
 			path = DropIt;
@@ -214,6 +217,7 @@
 			files = (
 				75D05EE71B457A0100A9D630 /* DropItViewController.swift in Sources */,
 				75D05EC71B45799A00A9D630 /* AppDelegate.swift in Sources */,
+				75FD46161B45D15700E8B0A5 /* DropItBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				75D05EE21B45799B00A9D630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75D05EE31B45799B00A9D630 /* Build configuration list for PBXNativeTarget "DropItTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				75D05EE51B45799B00A9D630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
