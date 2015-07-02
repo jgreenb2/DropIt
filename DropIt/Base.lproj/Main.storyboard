@@ -21,6 +21,9 @@
                                 <rect key="frame" x="16" y="28" width="568" height="564"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Ueg-na-m4x" appends="YES" id="HkZ-U3-BGn"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -38,14 +41,13 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="drop" destination="nv1-zk-SQD" id="9UX-SY-eqC"/>
                         <outlet property="gameView" destination="PZE-rz-nYj" id="Hvs-gR-RHq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="nv1-zk-SQD">
+                <tapGestureRecognizer id="Ueg-na-m4x">
                     <connections>
-                        <action selector="drop:" destination="BYZ-38-t0r" id="DcS-4q-fBJ"/>
+                        <action selector="drop:" destination="BYZ-38-t0r" id="dse-hM-CNs"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
